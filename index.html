@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testing</title>
+	<style type="">
+		.main{
+			width: 1300px;
+			height: 500px;
+			/*background-color: yell ow;*/
+			margin: 100px auto;
+			position: relative;
+		}
+		.a{
+			width: 30%;
+			height: 270px;
+			display: inline-block;
+			position: absolute;
+			left: 10%;
+			top: calc(50% - 135px);
+			background-color: black;
+			animation-name: sa;
+		    animation-duration: 20s;
+			animation-iteration-count: infinite;
+			animation-fill-mode: forwards;
+			z-index: 1;
+			animation-delay: 4s;
+		}
+		.c{
+			width: 30%;
+			height: 270px;
+			display: inline-block;
+			position: absolute;
+			background-color: yellow;
+			z-index: 0;
+			left: 35%;
+			top: calc(50% - 135px);
+			animation-name: sc;
+			animation-delay: 4s;
+			animation-duration: 20s;
+			animation-fill-mode: forwards;
+			animation-iteration-count: infinite;
+			z-index: 0;
+		}
+		
+		.b{
+			animation-name: sb;
+			position: absolute;
+			display: inline-block;
+			width: 50%;
+			height: 350px;
+			left: 25%;
+			top: calc(50% - 175px);
+			z-index: 2;
+			background-color: blue;
+		    animation-duration: 20s;
+			animation-iteration-count:infinite;
+			animation-fill-mode: forwards;
+			animation-delay: 4s;
+
+		
+
+		}
+		
+
+
+		.d{
+			width: 30%;
+			height: 270px;
+			display: inline-block;
+			position: absolute;
+			left:  60%;
+			top: calc(50% - 135px);
+     		background-color: green;
+     		animation-name: sd;
+		    animation-duration: 20s;
+			animation-iteration-count: infinite;
+			animation-fill-mode: forwards;
+			z-index: 1;
+			animation-delay: 4s;
+			
+
+
+		}
+
+		@keyframes sa{
+			0%{
+				width: 30%;
+				left: 10%;
+				height: 270px;
+				top: calc(50% - 135px);
+				z-index: 1;
+ 
+			}
+		    8%{
+				z-index: 0;
+				width: 30%;
+				height: 270px;
+				left: 35%;
+				top: calc(50% - 135px);
+
+			}
+			25%{
+				z-index: 0;
+				width: 30%;
+				height: 270px;
+				left: 35%;
+				top: calc(50% - 135px);
+
+			}
+
+			33%{
+				z-index: 1;
+				width: 30%;
+				height: 270px;
+				left: 60%;
+          		top: calc(50% - 135px);
+
+			}
+			50%{
+				z-index: 1;
+				width: 30%;
+				height: 270px;
+				left: 60%;
+          		top: calc(50% - 135px);
+
+			}
+			58%{
+				width: 50%;
+				left: 25%;
+				height: 350px;
+				top: calc(50% - 175px);
+				z-index: 2;
+
+			}
+			75%{
+				width: 50%;
+				left: 25%;
+				height: 350px;
+				top: calc(50% - 175px);
+				z-index: 2;
+
+			}
+
+			83%{
+				width: 30%;
+				left: 10%;
+				height: 270px;
+				top: calc(50% - 135px);
+				z-index: 1;
+				
+
+			}
+			100%{
+				width: 30%;
+				left: 10%;
+				height: 270px;
+				top: calc(50% - 135px);
+				z-index: 1;
+
+			}
+			
+
+		}
+		@keyframes sb{
+			0%{
+				width: 50%;
+				left: 25%;
+				height: 350px;
+				top: calc(50% - 175px);
+				z-index: 2;
+ 
+			}
+
+
+			8%{
+				width: 30%;
+				left: 10%;
+				height: 270px;
+				top: calc(50% - 135px);
+				z-index: 1;
+
+			}
+			25%{
+				width: 30%;
+				left: 10%;
+				height: 270px;
+				top: calc(50% - 135px);
+				z-index: 1;
+
+			}
+			33%{
+				width: 30%;
+				height: 270px;
+				left: 35%;
+				top: calc(50% - 135px);
+				z-index: 0;
+
+			}
+			50%{
+				width: 30%;
+				height: 270px;
+				left: 35%;
+				top: calc(50% - 135px);
+				z-index: 0;
+
+			}
+
+			58%{
+				z-index: 1;
+				width: 30%;
+				height: 270px;
+				left: 60%;
+          		top: calc(50% - 135px);
+
+			}
+			75%{
+				z-index: 1;
+				width: 30%;
+				height: 270px;
+				left: 60%;
+          		top: calc(50% - 135px);
+
+			}
+
+			83%{
+				width: 50%;
+				left: 25%;
+				height: 350px;
+				top: calc(50% - 175px);
+				z-index: 2;
+				
+
+			}
+			100%{
+				width: 50%;
+				left: 25%;
+				height: 350px;
+				top: calc(50% - 175px);
+				z-index: 2;
+
+			}
+
+		}
+		@keyframes sc{
+			0%{
+				width: 30%;
+				height: 270px;
+				left: 35%;
+				top: calc(50% - 135px);
+				z-index: 0;
+			}
+			8%{
+				z-index: 1;
+				width: 30%;
+				height: 270px;
+				left: 60%;
+          		top: calc(50% - 135px);
+
+			}
+			25%{
+				z-index: 1;
+				width: 30%;
+				height: 270px;
+				left: 60%;
+          		top: calc(50% - 135px);
+
+			}
+			33%{
+				width: 50%;
+				left: 25%;
+				height: 350px;
+				top: calc(50% - 175px);
+				z-index: 2;
+			}
+			50%{
+				width: 50%;
+				left: 25%;
+				height: 350px;
+				top: calc(50% - 175px);
+				z-index: 2;
+			}
+			58%{
+				width: 30%;
+				left: 10%;
+				height: 270px;
+				top: calc(50% - 135px);
+				z-index: 1;
+
+			}
+			75%{
+				width: 30%;
+				left: 10%;
+				height: 270px;
+				top: calc(50% - 135px);
+				z-index: 1;
+
+			}
+			83%{
+				width: 30%;
+				height: 270px;
+				left: 35%;
+				top: calc(50% - 135px);
+				z-index: 0;
+
+
+			}
+			100%{
+				width: 30%;
+				height: 270px;
+				left: 35%;
+				top: calc(50% - 135px);
+				z-index: 0;
+
+			}
+		}
+		@keyframes sd{
+			0%{
+				z-index: 1;
+				width: 30%;
+				height: 270px;
+				left: 60%;
+          		top: calc(50% - 135px);
+ 
+			}
+			8%{
+				width: 50%;
+				left: 25%;
+				height: 350px;
+				top: calc(50% - 175px);
+				z-index: 2;
+
+			}
+			25%{
+				width: 50%;
+				left: 25%;
+				height: 350px;
+				top: calc(50% - 175px);
+				z-index: 2;
+
+			}
+			33%{
+				width: 30%;
+				left: 10%;
+				height: 270px;
+				top: calc(50% - 135px);
+				z-index: 1;
+			}
+			50%{
+				width: 30%;
+				left: 10%;
+				height: 270px;
+				top: calc(50% - 135px);
+				z-index: 1;
+
+			}
+			58%{
+				width: 30%;
+				height: 270px;
+				left: 35%;
+				top: calc(50% - 135px);
+				z-index: 0;
+
+			}
+			75%{
+				width: 30%;
+				height: 270px;
+				left: 35%;
+				top: calc(50% - 135px);
+				z-index: 0;
+
+			}
+			83%{
+				z-index: 1;
+				width: 30%;
+				height: 270px;
+				left: 60%;
+          		top: calc(50% - 135px);
+
+			}
+			100%{
+				z-index: 1;
+				width: 30%;
+				height: 270px;
+				left: 60%;
+          		top: calc(50% - 135px);
+			}
+			
+
+		}
+
+     	
+
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="a"></div>
+		<div class="b"></div>
+		<div class="c"></div>
+		<div class="d"></div>
+	</div>
+
+</body>
+</html>
